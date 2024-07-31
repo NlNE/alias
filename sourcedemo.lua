@@ -9,7 +9,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/insan
 local window = library:new({
     textsize = 13.5,
     font = Enum.Font.RobotoMono,
-    name = ":                          Alias | Demo | build 0.0.5",
+    name = ":                          Alias | Demo | build 0.0.3",
     color = Color3.fromRGB(240, 25, 143)
 })
 
