@@ -1,12 +1,15 @@
+
+-- // Loading
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NlNE/alias/main/loading.lua"))()
+
 -- // Library
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/SplixUiLib/main/Main"))()
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Atlas | Demo",Text = "Loading...",Duration = 3.6})
-wait(4)
+
 -- // Main Window
 local window = library:new({
     textsize = 13.5,
     font = Enum.Font.RobotoMono,
-    name = ":                          Alias | Demo | build 0.0.4",
+    name = ":                          Alias | Demo | build 0.0.5",
     color = Color3.fromRGB(240, 25, 143)
 })
 
