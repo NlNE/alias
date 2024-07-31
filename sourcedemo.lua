@@ -1,7 +1,7 @@
 
 -- // Loading
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NlNE/alias/main/loading.lua"))()
-
+wait(7)
 -- // Library
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/SplixUiLib/main/Main"))()
 
